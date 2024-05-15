@@ -18,8 +18,8 @@ form.addEventListener("submit",(event)=>{
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'fbc447eeb5mshe059747efbf3e61p1a2364jsncbb0a2d956a3',
-            'X-RapidAPI-Host':'air-quality.p.rapidapi.com'
+            'X-RapidAPI-Key': 'your key',
+            'X-RapidAPI-Host':'your host key'
         }
     };
     fetch(url,options)
